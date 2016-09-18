@@ -57,5 +57,6 @@ func formatter(s *bufio.Scanner, w io.Writer) {
 			}
 			w.Write([]byte{thisRune})
 		}
+		w.Write([]byte("\n"))
 	}
 }
