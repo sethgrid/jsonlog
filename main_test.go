@@ -40,7 +40,8 @@ net/http.(*conn).serve(0xc420092580, 0x3b92c0, 0xc420014740)
 created by net/http.(*Server).Serve
     /usr/local/go/src/net/http/server.go:2293 +0x44d
 "
- }`
+ }
+`
 	var b []byte
 	buf := bytes.NewBuffer(b)
 	// change input to a new scanner
